@@ -63,6 +63,25 @@
 
         <plugins>
 
+          <plugin>
+            <groupId>edu.illinois.cs</groupId>
+            <artifactId>testrunner-maven-plugin</artifactId>
+            <version>1.0</version>
+            <dependencies>
+                <dependency>
+                    <groupId>edu.illinois.cs</groupId>
+                    <artifactId>idflakies</artifactId>
+                    <!-- Use iDFlakies from Maven Central -->
+                    <version>1.0.2</version>
+                    <!-- Use the following version instead if you build iDFlakies locally and want to use the locally built version. -->
+                    <!-- <version>1.0.3-SNAPSHOT</version> -->
+                </dependency>
+            </dependencies>
+            <configuration>
+                <className>edu.illinois.cs.dt.tools.detection.DetectorPlugin</className>
+            </configuration>
+        </plugin>
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-source-plugin</artifactId>
@@ -181,7 +200,7 @@
                         </manifest>
                     </archive>
                 </configuration>
-            </plugin> 
+            </plugin>
             -->
 
 
