@@ -1,0 +1,9 @@
+cn.edu.hfut.dmic.webcollector.util.CharsetDetectorTest.testGuessEncodingByMozilla
+cn.edu.hfut.dmic.webcollector.util.CharsetDetectorTest.testGuessEncoding
+cn.edu.hfut.dmic.webcollector.util.CrawlDatumsTest.testAdd
+cn.edu.hfut.dmic.webcollector.util.CrawlDatumsTest.testAddAndReturn
+cn.edu.hfut.dmic.webcollector.util.CrawlDatumTest.testKey
+cn.edu.hfut.dmic.webcollector.util.DBManagerTest.testBerkeleyDBInjector
+cn.edu.hfut.dmic.webcollector.util.DBManagerTest.testRocksDBInjector
+cn.edu.hfut.dmic.webcollector.util.MetaTest.testMetaSetterAndGetter
+cn.edu.hfut.dmic.webcollector.util.OkHttpRequesterTest.testHttpCode
